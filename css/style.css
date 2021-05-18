@@ -106,6 +106,28 @@ footer {
     margin-top: 10px;
     text-align: center;
 }
-ul{
-	list-style: none;
+ul {
+    list-style: none;
+
 }
+
+
+.delete {
+    border: 1px solid #cc0022;
+    background-color: #c73e55;
+    color: #ffffff;
+    padding: 5px 10px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 2px;
+    margin: 3px;
+  }
+  
+  .delete:hover {
+    
+    border: 1px solid #cc0022;
+    background-color: #c73e55;
+    color: #ffffff;
+    padding: 5px 10px; 
+    box-shadow: 0 12px 16px 0  #f0423c, 0 17px 50px 0 rgba(0,0,0,0.19);
+  
+  }

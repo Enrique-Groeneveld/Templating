@@ -30,7 +30,7 @@
     }
 
     function deleteLocation($location) {
-        return getDatabaseData("DELETE FROM locations WHERE id = $location");
+      return getDatabaseData("DELETE FROM locations WHERE id = $location");
     }
 
     function adddefaultlocations() {

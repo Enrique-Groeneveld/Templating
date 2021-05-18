@@ -24,8 +24,8 @@
             <ul>
                 <?php foreach($allLocs as $loc) { ?> 
                     <li>
-                        <button onclick="window.location.href='./locations.php?delete=<?=$loc['id']?>'">Click me</button>
-                        <span><?=var_dump($loc['name'])?></span>
+                        <button class="delete" onclick="window.location.href='./locations.php?delete=<?=$loc['id']?>'"><i class="fas fa-trash-alt"></i>Delete</button>
+                        <span><?=$loc["name"]?></span>
                     </li>    
                 <?php 
                 }
